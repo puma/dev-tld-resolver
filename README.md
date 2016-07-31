@@ -20,7 +20,7 @@ git clone https://github.com/mnishihan/dev-tld-resolver.git
 ```
 -  Run following command to build & install the tool
 ```
-cd dev-tld-resolver && make
+cd dev-tld-resolver/src && make
 sudo make install
 ```
 
