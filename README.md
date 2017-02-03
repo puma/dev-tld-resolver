@@ -16,7 +16,7 @@ sudo apt-get install build-essentials git
 ```
 - Clone this repository somewhere in your hard drive
 ```bash
-git clone https://github.com/mnishihan/dev-tld-resolver.git
+git clone https://github.com/puma/dev-tld-resolver.git
 ```
 -  Run following command to build & install the tool
 ```
