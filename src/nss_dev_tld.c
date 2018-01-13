@@ -98,7 +98,7 @@ _nss_dev_tld_gethostbyname2_r(const char *name,
     char *env = getenv("DEV_TLD_DOMAINS");
     char *domains;
     if (env == NULL) {
-        domains = strdup("dev");
+        domains = strdup("puma");
     } else {
         domains = strdup(env);
     }
