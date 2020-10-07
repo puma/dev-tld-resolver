@@ -13,8 +13,7 @@ clean:
 	rm -f *.o *~ libnss_dev_tld.so.2
 
 install: libnss_dev_tld.so.2
-	ln -sf $(CURDIR)/libnss_dev_tld.so.2 /lib
+	cp --remove-destination $(CURDIR)/libnss_dev_tld.so.2 /lib
 
 uninstall:
 	rm /lib/libnss_dev_tld.so.2
-
