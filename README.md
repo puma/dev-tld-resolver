@@ -4,7 +4,7 @@ Simple top level domain (NSSwitch hosts) resolver for linux based development en
 
 # Supported Linux Distributions
 
-This tool is developed in a Ubuntu 12.04 system & tested in later vesrions of Ubuntu & Ubuntu derivatives. Even though not tested, it should also work in other Linux distributions that supports/uses [nsswitch.conf](http://man7.org/linux/man-pages/man5/nsswitch.conf.5.html) file based configuration. In general, if your Linux installation has a file named **nsswitch.conf** in **/etc/** folder, then you should be ready to go with using this tool.
+This tool is developed in a Ubuntu 12.04 system & tested in later versions of Ubuntu & Ubuntu derivatives. Even though not tested, it should also work in other Linux distributions that supports/uses [nsswitch.conf](http://man7.org/linux/man-pages/man5/nsswitch.conf.5.html) file based configuration. In general, if your Linux installation has a file named **nsswitch.conf** in **/etc/** folder, then you should be ready to go with using this tool.
 
 # Installation
 
